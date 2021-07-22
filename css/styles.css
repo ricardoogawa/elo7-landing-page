@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #7d7873;
+    font-size: 1em;
+    font-family: "museo_sans",sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/images/foto-header.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header h1{
+    text-shadow: 2px 2px 2px #000000;
+    color: white;
+    font-size: 3em;
+}
+
+hr {
+    width: 180px;
+    display: block;
+    margin: 1.5em auto;
+}
+
+.container {
+    padding: 3em 12em;
+    height: 100%;
+    width: auto;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-end {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flex-item {
+    padding: 1em;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+#second-section, #third-section{
+    background-color: whitesmoke;
+}
+
+.image-radius {
+    border-radius: 3px;
+}
+
+.secondary {
+    color: #fdb934;
+}
+
+.font-light{
+    font-weight: 300;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#second-section .title {
+    margin-bottom: 5em;
+}
+
+#fourth-section h3{
+    margin: 1.5em;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.mb-3 {
+    margin-bottom: 3em;
+}   
+
+.btn-secondary{
+    border: 3px solid #fdb933;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    background: #fdb933d1;
+    outline: none;
+}
+
+.btn-secondary:hover{
+    border: 3px solid #fdb933;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: whitesmoke;
+    background: #fdba33b1;
+    outline: none;
+}
