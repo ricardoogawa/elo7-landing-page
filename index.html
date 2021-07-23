@@ -7,13 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/navbar.css">
 
     <title>Elo7 - Vagas</title>
 </head>
 
 <body>
     <header>
-        <div class="full-height flex flex-center-end">
+        <nav class="nav">
+            <div class="container">
+                <a href="index.html#home" class="logo">
+                </a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="index.html#home">Início</a></li>
+                    <li><a href="index.html#second-section">Sobre</a></li>
+                    <li><a href="index.html#vagas">Vagas</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="full-height">
             <h1 class="mb-3">Trabalhe no Elo7</h1>
         </div>
     </header>
@@ -26,7 +41,7 @@
                     sint
                     est nisi?</p>
                 <hr>
-                <button class="btn-secondary">Vagas em Aberto</button>
+                <a class="btn-secondary" href="#vagas">Vagas em Aberto</a>
             </div>
         </div>
     </section>
@@ -35,7 +50,7 @@
         <div class="container">
             <div class="flex flex-center">
                 <div class="flex-item">
-                    <img class="image-radius" src="./assets/images/placeholder-video.png" alt="Elo7 - Carlos Curioni">
+                    <img class="image-radius full-width" src="./assets/images/placeholder-video.png" alt="Elo7 - Carlos Curioni">
                 </div>
                 <div class="flex-item">
                     <div class="title">
@@ -63,16 +78,16 @@
 
             <div class="flex flex-center">
                 <div class="flex-item"> 
-                    <img class="image-radius" src="./assets/images/camila.png" alt="Elo7 - Camila">
+                    <img class="image-radius full-width" src="./assets/images/camila.png" alt="Elo7 - Camila">
                 </div>
                 <div class="flex-item">
-                    <img class="image-radius" src="./assets/images/guto.png" alt="Elo7 - Guto">
+                    <img class="image-radius full-width" src="./assets/images/guto.png" alt="Elo7 - Guto">
                 </div>
                 <div class="flex-item">
-                    <img class="image-radius" src="./assets/images/david.png" alt="Elo7 - David">
+                    <img class="image-radius full-width" src="./assets/images/david.png" alt="Elo7 - David">
                 </div>
                 <div class="flex-item">
-                    <img class="image-radius" src="./assets/images/beatriz.png" alt="Elo7 - Beatriz">
+                    <img class="image-radius full-width" src="./assets/images/beatriz.png" alt="Elo7 - Beatriz">
                 </div>
             </div>
         </div>
@@ -116,7 +131,7 @@
             <hr>
 
             <div class="text-center">
-                <button class="btn-secondary">Saiba Mais</button>
+                <a class="btn-secondary" href="elo7-ambiente.html">Saiba Mais</a>
             </div>
         </div>
     </section>
@@ -129,7 +144,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="vagas">
         <div class="container">
             <div class="text-center mb-2">
                 <h2>Vagas em aberto</h2>
