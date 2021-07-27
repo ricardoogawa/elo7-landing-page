@@ -145,7 +145,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 48em) {
   .logo {
     width: 180px;
   }
