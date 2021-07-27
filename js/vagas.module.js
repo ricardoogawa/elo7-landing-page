@@ -100,7 +100,7 @@ class VagasView {
         let html = '';
 
         for (let i = 0; i < quantidade_vagas; i++) {
-            html += `<a href="${this.vagas[i].link}" target="blank" class="flex-item vagas">
+            html += `<a rel="external nofollow" href="${this.vagas[i].link}" target="blank" class="flex-item vagas">
                 <div class="title text-center">
                     <h4>${this.vagas[i].cargo}</h4>
                 </div>

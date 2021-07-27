@@ -119,12 +119,12 @@ a {
   text-align: justify;
 }
 
-#second-section,
-#third-section {
+#sobre,
+#time {
   background-color: whitesmoke;
 }
 
-#second-section .flex-item {
+#sobre .flex-item {
   max-width: 500px;
 }
 
@@ -144,15 +144,15 @@ a {
   font-style: italic;
 }
 
-#second-section .title {
+#sobre .title {
   margin-bottom: 5em;
 }
 
-#fourth-section h3 {
+#qualidade-vida h3 {
   margin: 1.5em;
 }
 
-#fourth-section .flex-item {
+#qualidade-vida .flex-item {
   max-width: 300px;
 }
 
